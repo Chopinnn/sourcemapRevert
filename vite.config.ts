@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [vue(), vueJsx()],
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    sourcemap: false,
     emptyOutDir: true
     // rollupOptions: {
     //   input: ['src/index.html']
